@@ -1,0 +1,29 @@
+.todocontainer{
+    width: 500px;
+    border: 2px solid black;
+    padding-bottom: 4px;
+    margin: 0 auto;
+}
+.todoheading{
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+    background-color: cadetblue;
+    color: darkslategray;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+.todoheading h1{
+    position: relative;
+    top: 0;
+    text-align: center;
+    transform: translate(0,-30%);
+}
+.todomain{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid green;
+}
+p{
+display: inline;
+}
